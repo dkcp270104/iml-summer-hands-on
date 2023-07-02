@@ -1,0 +1,12 @@
+To create a Julia environment and install the necessary packages, you can follow these steps:
+
+Open a terminal or command prompt.
+Run the command conda create -n j1.8 to create a new environment named "j1.8" for Julia.
+Activate the environment by running conda activate j1.8.
+Install Julia version 1.8 by running conda install julia=1.8.
+Launch the Julia REPL by running the julia command in the terminal.
+In the Julia REPL, enter ] to enter the package management mode.
+Type add Plots to install the Plots package.
+Press the backspace key to exit the package management mode.
+Exit the Julia REPL by typing exit() and pressing enter.
+After setting up the Julia environment and installing the Plots package, you can run the provided code in a Julia script or within the Julia REPL. The resulting plots will be saved in the "plots" folder, as specified in the code.

@@ -1,0 +1,13 @@
+To set up a Conda environment and install the required packages for conducting Maximum Likelihood Estimation (MLE) on a TIFF image, follow these steps:
+
+Open a terminal or command prompt.
+Create a new Conda environment named "p3.8" by running the command: conda create -n p3.8.
+Activate the newly created environment by running: conda activate p3.8.
+Install Python version 3.8 in the environment by executing: conda install python=3.8.
+Install the necessary packages for MLE:
+Use conda install numpy to install NumPy, which provides numerical computing capabilities.
+Use conda install matplotlib to install Matplotlib, a plotting library used for data visualization.
+Use conda install opencv-python to install OpenCV, a library for image processing and computer vision.
+Use conda install scipy to install SciPy, which provides various scientific computing functions.
+Obtain the TIFF image "shadow.tif" from the following link: https://people.math.sc.edu/Burkardt/data/tif/tif.html.
+Use the downloaded "shadow.tif" image to perform MLE analysis. Details on how to conduct MLE on the image can be found in the code or accompanying documentation.

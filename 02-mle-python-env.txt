@@ -1,0 +1,12 @@
+To set up a Conda environment and install the required packages, follow these steps:
+
+Open a terminal or command prompt.
+Create a new Conda environment named "p3.8" by running the command: conda create -n p3.8.
+Activate the newly created environment by running: conda activate p3.8.
+Install Python version 3.8 in the environment by executing: conda install python=3.8.
+Install the necessary packages for the code. Use the following commands:
+conda install matplotlib to install Matplotlib.
+conda install numpy to install NumPy.
+conda install pandas to install Pandas.
+conda install qt qt5 to install Qt (required for surface plots).
+After setting up the environment and installing the packages, you can proceed to run the code. The resulting plots will be saved in the "plots" folder, as specified in the code.
